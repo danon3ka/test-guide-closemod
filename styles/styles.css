@@ -424,13 +424,13 @@ footer {
 /* Полоска для разделения информации */
 .divider {
     height: 2px; /* Толщина полоски */
-    background-color: #37354e; /* Цвет полоски */
+    background-color: var(--border-color); /* Цвет полоски */
     margin: 20px 0; /* Отступы сверху и снизу */
 }
 
 .divider-description {
     height: 2px; /* Толщина полоски */
-    background-color: #37354e; /* Цвет полоски */
+    background-color: var(--border-color); /* Цвет полоски */
     margin: 0 0; /* Отступы сверху и снизу */
 }
 
@@ -569,7 +569,7 @@ td:nth-child(3) {
 }
 
 .table-punishments-transitions th {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .table-punishments-transitions td {
@@ -978,7 +978,7 @@ td:nth-child(3) {
 .color-pred {
     color: var(--color-close-pred);
     background-color: var(--bg-color-close-pred);
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -986,7 +986,7 @@ td:nth-child(3) {
 .color-vugovor {
     color: var(--color-close-vugovor);
     background-color: var(--bg-color-close-vugovor);
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -1013,7 +1013,7 @@ td:nth-child(3) {
 .bg-color-channels {
     color: var(--text-color);
     background-color: var(--grey-bg-color);
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -1021,7 +1021,7 @@ td:nth-child(3) {
 .bg-color-commands {
     color: var(--color-commands);
     background-color: var(--bg-color-commands);
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -1034,7 +1034,7 @@ td:nth-child(3) {
 .bg-color-close {
     color: var(--color-role-close);
     background-color: var(--bg-color-role-close);
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -1042,7 +1042,7 @@ td:nth-child(3) {
 .bg-color-closemaker {
     color: var(--color-role1);
     background-color: var(--bg-color-role1); /* #333e50 */
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -1050,7 +1050,7 @@ td:nth-child(3) {
 .bg-color-nastavnik {
     color: var(--color-role2);
     background-color: var(--bg-color-role2);
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -1058,7 +1058,7 @@ td:nth-child(3) {
 .bg-color-master {
     color: var(--color-role3);
     background-color: var(--bg-color-role3);
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -1066,7 +1066,7 @@ td:nth-child(3) {
 .bg-color-rukovod {
     color: var(--color-role4);
     background-color: var(var(--bg-color-role4));
-    font-size: 14px;
+    font-size: 12px;
     padding: 1px 3px;
     border-radius: 5px;
 }
@@ -1286,7 +1286,7 @@ td:nth-child(3) {
 
     .note h4 {
         margin: 0 0 10px 0;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .note p {

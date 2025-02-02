@@ -30,7 +30,8 @@
 
     --color-commands: #c9c9c9;
     --bg-color-commands: #2240c457;
-    --bg-color-commands-hover: rgba(101, 129, 255, 0.301);
+    --bg-color-commands-hover: rgb(101 129 255 / 80%);
+    --color-commands-hover: white;
 
     --color-role-close: #9b59b6;
     --bg-color-role-close: #9c59b62c;
@@ -97,6 +98,7 @@ body.light {
     --color-commands: #ffffff;
     --bg-color-commands: #dd9a3e9c;
     --bg-color-commands-hover: #dd9b3e;
+    --color-commands-hover: white;
 
     --color-role-close: #9b59b6;
     --bg-color-role-close: #9c59b65e;
@@ -162,6 +164,7 @@ body.dark {
     --color-commands: #c9c9c9;
     --bg-color-commands: #2240c457;
     --bg-color-commands-hover: rgba(101, 129, 255, 0.301);
+    --color-commands-hover: white;
 
     --color-role-close: #9b59b6;
     --bg-color-role-close: #9c59b62c;
@@ -981,6 +984,7 @@ td:nth-child(3) {
 
 .bg-color-commands:hover {
     background-color: var(--bg-color-commands-hover);
+    color: var(--color-commands-hover);
 }
 
 .bg-color-close {

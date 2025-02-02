@@ -19,6 +19,7 @@
     --color-large-title: #68a1f5;
     --color-color-yellow: #e9ee9e;
     --color-italic: grey;
+    --footer-color: #68a1f5;
 
     --color-close-beseda: #f5ff6c; /* Беседа */
     --bg-color-close-beseda: ;
@@ -84,6 +85,7 @@ body.light {
     --color-large-title: #3E2522;
     --color-color-yellow: #93282c;
     --color-italic: black;
+    --footer-color: #a75000;
 
     --color-close-beseda: #f5ff6c; /* Беседа */
     --bg-color-close-beseda: ;
@@ -148,6 +150,7 @@ body.dark {
     --color-large-title: #68a1f5;
     --color-color-yellow: #e9ee9e;
     --color-italic: grey;
+    --footer-color: #68a1f5;
 
     --color-close-beseda: #f5ff6c; /* Беседа */
     --bg-color-close-beseda: ;
@@ -353,6 +356,10 @@ footer {
   
 #rules-search-results li:hover {
     background-color: var(--button-hover-bg);
+}
+
+.footer-color {
+    color: var(--footer-color);
 }
 
 .text-content h1 {
@@ -667,62 +674,7 @@ td:nth-child(3) {
     max-width: 1200px; /* Ограничивает максимальную ширину таблицы */
 }
 
-/* Светлая тема: Добавлены пустые классы для настройки */
-.large-title.light {
-    color: #68a1f5;
-}
-.color-blue.light {
-    color: #68a1f5;
-}
-.grey-bg.light {
-    background-color: #a750004d;
-    color: #3E2522;
-}
-.bg-color-channels.light {
-    color: #b1b2d3;
-    background-color: #27272cec;
-}
-.bg-color-commands.light {
-    color: #ffffff;
-    background-color: #2240c457;
-}
-.bg-color-commands:hover.light {
-    color: #ffffff;
-    background-color: rgba(101, 130, 255, 0.397);
-}
-.bg-notes-frame.light {
-    background-color: #27272cec;
-    color: #b1b2d3;
-}
-.title.title-penalty.light {
-    color: #a75000; /* Цвет Наказание в модал окне  .title лишнее? .title лишнее? .title лишнее? .title лишнее? .title лишнее?*/
-}
-.title.title-info.light {
-    color: #a75000; /* Цвет Информация в модал окне  .title лишнее? .title лишнее? .title лишнее? .title лишнее? .title лишнее?*/
-}
-.table-punishments-transitions.light {
-    color: #a75000;
-    border: 1px solid #37354e; /* Граница вокруг всей таблицы */
-}
-.table-punishments-transitions th.light, 
-.table-punishments-transitions td.light {
-    border-bottom: 1px solid #444;
-}
-/* Стили для элементов наказаний */
-.table-punishments-transitions .punishment-item.light {
-    background-color: #1E1B2C;
-    color: #b1b2d3;
-}
 
-.table-punishments-transitions .punishment-repeat.light {
-    background-color: #1E1B2C;
-    color: #b1b2d3;
-}
-
-.table-punishments-transitions .punishment-permanent.light {
-    background-color: #1E1B2C;
-    color: #b1b2d3;
-}
 
 
 .modal {

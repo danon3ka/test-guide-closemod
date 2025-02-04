@@ -1321,7 +1321,7 @@ function setTheme(theme) {
     document.getElementById("rules-search").addEventListener("click", () => {
       searchModal.style.display = "block";
       overlay.style.display = "block";
-      /* searchInput.focus(); */ /* отключаем авто активацию клавиатуры на нажатие на поиск */
+      searchInput.focus(); /* отключаем авто активацию клавиатуры на нажатие на поиск */
       document.body.classList.add("no-scroll"); // Запрещаем прокрутку
     });
   

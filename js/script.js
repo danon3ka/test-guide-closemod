@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -319,7 +319,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -389,7 +389,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -426,8 +426,8 @@ document.addEventListener("DOMContentLoaded", () => {
                             <thead>
                                 <tr>
                                     <th>Первый случай</th>
-                                    <th>Повторные нарушения</th>
-                                    <th>Постоянные нарушения</th>
+                                    <th>Второй случай</th>
+                                    <th>Последующие нарушения</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -439,9 +439,9 @@ document.addEventListener("DOMContentLoaded", () => {
                             </tbody>
                         </table>
                         <div>
-                            <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
-                            <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые. <span class="color-yellow">Аминистировать</span> после смены ника.</p>
+                            <p><span class="color-blue">Второй случай</span> - увеличенное наказание, пользователь не сменил ник после первой блокировки.</p>
+                            <p><span class="color-blue">Последующие нарушения</span> - более жесткие меры, пользователь систематически нарушает правило. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -593,7 +593,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -639,7 +639,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -677,7 +677,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -717,7 +717,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -758,7 +758,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -801,7 +801,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -847,7 +847,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <p><span class="color-yellow">Пред</span> - словестное предупреждение, убедитесь, что вы были услышаны.</p>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -892,7 +892,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -944,7 +944,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>
                             <p><span class="color-blue">Первый случай</span> - минимальное наказание, пользователь нарушил впервые.</p>
                             <p><span class="color-blue">Повторные нарушения</span> - увеличенное наказание, пользователь нарушает второй или более раз.</p>
-                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-important">старшим составом</span>.</p>
+                            <p><span class="color-blue">Постоянные нарушения</span> - более жесткие меры, пользователь систематически нарушает правила. Применяется по согласованию с <span class="color-red">старшим составом</span>.</p>
                             <p><span class="title-primer">Как проверить?</span></p>
                             <p class="tab-indent">1. Копируем <span class="grey-bg">ID</span> пользователя.</p>
                             <p class="tab-indent">2. Переходим в канал <span class="bg-color-channels"> # ⚪┇logs-closemod</span>.</p>
@@ -1526,7 +1526,7 @@ window.addEventListener('scroll', () => {
     const windowHeight = window.innerHeight; // Высота окна браузера
 
     // Показываем кнопку, если прокрутили вниз на 100px
-    if (window.scrollY > 100) {
+    if (window.scrollY > 50) {
         scrollBtn.classList.add('show');
     } else {
         scrollBtn.classList.remove('show');
@@ -1557,12 +1557,26 @@ document.addEventListener("DOMContentLoaded", () => {
         "blue-theme": "linear-gradient(to right, #537ec0, #0f0c36)",
     };
 
+    // Функция для обновления цвета кнопки
+    function updateButtonColor(themeId) {
+        if (themes[themeId]) {
+            upButton.style.background = themes[themeId];
+        }
+    }
+
+    // При изменении темы
     document.querySelectorAll(".theme-buttons button").forEach(button => {
         button.addEventListener("click", () => {
             const themeId = button.id;
-            if (themes[themeId]) {
-                upButton.style.background = themes[themeId];
-            }
+            localStorage.setItem("selectedTheme", themeId); // Сохраняем тему
+            updateButtonColor(themeId); // Применяем цвет кнопки
         });
     });
+
+    // Проверяем сохраненную тему при загрузке
+    const savedTheme = localStorage.getItem("selectedTheme");
+    if (savedTheme) {
+        updateButtonColor(savedTheme); // Применяем цвет кнопки при загрузке
+    }
 });
+

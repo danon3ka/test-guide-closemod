@@ -297,7 +297,17 @@ footer {
 
 /* Кнопка "Вверх" */
 #up-button {
-    background: linear-gradient(to right, #537ec0, #0f0c36);
+    display: block !important;
+    opacity: 1 !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    z-index: 1000;
 }
   
 .theme-buttons button:hover {

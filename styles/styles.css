@@ -847,7 +847,7 @@ td:nth-child(3) {
     padding: 0; /* Убираем внутренние отступы */
     width: 40px; /* Устанавливаем фиксированную ширину */
     height: 40px; /* Устанавливаем фиксированную высоту */
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     float: right;
     border-radius: 5px;

@@ -211,7 +211,7 @@ header {
     background-color: var(--header-bg);
     color: var(--text-color);
     border-bottom: 2px solid var(--modal-border-color);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -1170,6 +1170,7 @@ td:nth-child(3) {
 @media screen and (max-width: 768px) {
     header {
         text-align: center;
+        padding: 10px;
     }
 
     .header-container {
@@ -1179,6 +1180,10 @@ td:nth-child(3) {
 
     .body {
         font-size: 12px;
+    }
+
+    .theme-buttons {
+        margin: 0 0 10px 0;
     }
 
     .logo-title {
@@ -1350,13 +1355,13 @@ td:nth-child(3) {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     header {
         text-align: center;
+        padding: 10px;
     }
 
     .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
     }
 
     .logo-title {
@@ -1374,6 +1379,7 @@ td:nth-child(3) {
     }
 
     .theme-buttons {
+        margin: 0 0 10px 0;
         flex: 1;
         display: flex;
         justify-content: flex-end;

@@ -1526,7 +1526,7 @@ window.addEventListener('scroll', () => {
     const windowHeight = window.innerHeight; // Высота окна браузера
 
     // Показываем кнопку, если прокрутили вниз на 100px
-    if (window.scrollY > 50) {
+    if (window.scrollY > 75) {
         scrollBtn.classList.add('show');
     } else {
         scrollBtn.classList.remove('show');

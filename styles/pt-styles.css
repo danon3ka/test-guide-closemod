@@ -1,0 +1,1022 @@
+/* --- Основные переменные (темно-синяя тема по умолчанию) --- */
+:root {
+    --bg-color: #181726; /* Фон */
+    --text-color: #b1b2d3; /* Текст */
+    --header-bg: #181726; /* Фон шапки/футера */
+    --modal-bg: #181726;
+    --accent-color: #68a1f5; /* Акцентный цвет */
+    --button-bg: #1E1B2C; /* Фон кнопок */
+    --button-hover-bg: #242135; /* Фон кнопок при наведении */
+    --button-guide: #1f1d2d;
+    --button-hover-guide: #1f1d2d7a;
+    --border-color: #4b4971; /* Цвет границы */
+    --title-color: #68a1f5; /* Цвет пунктов правил */
+    --penalty: #68a1f5;
+    --bg-rule-color: #181726;
+    --border-rule-color: #181726;
+    --bg-notes-frame: #232139a3;
+    --grey-bg-color: #46426754;
+    --h2-text-color: white;
+    --color-punishment-permanent: #ff6767;
+    --color-large-title: #68a1f5;
+    --color-color-yellow: #e9ee9e;
+    --color-italic: grey;
+    --footer-color: #68a1f5;
+
+    --color-close-beseda: #f5ff6c; /* Беседа */
+    --bg-color-close-beseda: ;
+    --color-close-pred: #f5a068; /* Клоз Пред */
+    --bg-color-close-pred: rgba(238, 141, 76, 0.096);
+    --color-close-vugovor: #ff3c3c; /* Выговор */
+    --bg-color-close-vugovor: #ff3c3c23;
+
+    --color-commands: #c9c9c9;
+    --bg-color-commands: #2240c457;
+    --bg-color-commands-hover: rgb(101 129 255 / 80%);
+    --color-commands-hover: white;
+
+    --color-role-close: #9b59b6;
+    --bg-color-role-close: #9c59b62c;
+
+    --color-role0: #a5c8fe;; /* Стажёр Клоз */
+    --bg-color-role0: rgba(51, 62, 80, 0.521);;
+    --color-role1: #a5c8fe;; /* Клозмейкер */
+    --bg-color-role1: rgba(51, 62, 80, 0.521);;
+    --color-role2: #a5c8fe;
+    --bg-color-role2: rgba(51, 62, 80, 0.521);
+    --color-role3: #a5c8fe;
+    --bg-color-role3: rgba(51, 62, 80, 0.521);
+    --color-role4: #a5c8fe; /* Руководитель */
+    --bg-color-role4: rgba(51, 62, 80, 0.521);
+    --color-role5: #a5c8fe;; /* Администратор Клоз */
+    --bg-color-role5: rgba(51, 62, 80, 0.521);;
+
+    --color-scrollbar: #2b2a3f;
+    --color-bg-scrollbar: #181726;
+    --color-hover-scrollbar: #2b2a3f9a;
+
+    --rules-search-bg: #1C2131;
+    --rules-search-border: #1C2131;
+
+    --modal-bg: #181726; /* Фон модального окна */
+    --modal-text-color: #e6e6f4; /* Цвет текста в модальном окне */
+    --modal-header-bg: #1E1B2C; /* Фон заголовка модального окна */
+    --modal-header-text: #b1b2d3; /* Текст заголовка модального окна */
+    --modal-overlay-bg: rgba(0, 0, 0, 0.5); /* Фон overlay */
+    --modal-border-color: #37354e; /* Граница модального окна */
+    --modal-punishment-bg: #1E1B2C;
+}
+
+/* --- Светлая тема (оставлены пустыми) --- */
+body.light {
+    --bg-color: #E1D4C2; /* Фон */
+    --text-color: #3E2522; /* Текст */
+    --header-bg: #E1D4C2; /* Фон шапки/футера */
+    --accent-color: #a75000; /* Акцентный цвет */
+    --button-bg: #A78D78; /* Фон кнопок */
+    --button-hover-bg: #a78d78b9; /* Фон кнопок при наведении */
+    --button-guide: #c3af9fb9;
+    --button-hover-guide: #cebcadb9;
+    --border-color: #6E473B; /* Цвет границы */
+    --title-color: #a75000; /* Цвет пунктов правил */
+    --penalty: #ab6820;
+    --bg-rule-color: #e9ddcd;
+    --border-rule-color: #dbc5ba;
+    --bg-notes-frame: #a7500026;
+    --grey-bg-color: #a750004d;
+    --h2-text-color: #291C0E;
+    --color-punishment-permanent: #ab6820;
+    --color-punishment-penalty: #ab6820;
+    --color-large-title: #3E2522;
+    --color-color-yellow: #93282c;
+    --color-italic: black;
+    --footer-color: #a75000;
+
+    --color-close-beseda: #f5ff6c; /* Беседа */
+    --bg-color-close-beseda: ;
+    --color-close-pred: #ff6500e0; /* Клоз Пред */
+    --bg-color-close-pred: rgb(255 178 125 / 36%);
+    --color-close-vugovor: #ff0000;; /* Выговор */
+    --bg-color-close-vugovor: #ff5c5c63;
+
+    --color-commands: #ffffff;
+    --bg-color-commands: #dd9a3e9c;
+    --bg-color-commands-hover: #dd9b3e;
+    --color-commands-hover: white;
+
+    --color-role-close: #9b59b6;
+    --bg-color-role-close: #9c59b65e;
+
+    --color-role0: #bfd9ff; /* Стажёр Клоз */
+    --bg-color-role0: #18345f80;
+    --color-role1: #bfd9ff;; /* Клозмейкер */
+    --bg-color-role1: #18345f80;
+    --color-role2: #bfd9ff;
+    --bg-color-role2: #18345f80;
+    --color-role3: #bfd9ff;
+    --bg-color-role3: #18345f80;
+    --color-role4: #bfd9ff; /* Руководитель */
+    --bg-color-role4: #18345f80;
+    --color-role5: #bfd9ff; /* Администратор Клоз */
+    --bg-color-role5: #18345f80;
+
+    --color-scrollbar: #4e260029;
+    --color-bg-scrollbar: #a7500029;
+    --color-hover-scrollbar: #a7510041;
+
+    --rules-search-bg: #E9DDCD;
+    --rules-search-border: #d1c5b4;
+
+    --modal-bg: #E1D4C2; /* Светлая тема: фон модального окна */
+    --modal-text-color: #3E2522; /* Светлая тема: текст в модальном окне */
+    --modal-header-bg: #E1D4C2; /* Светлая тема: фон заголовка */
+    --modal-header-text: #6E473B; /* Светлая тема: текст заголовка */
+    --modal-overlay-bg: rgba(0, 0, 0, 0.2); /* Светлая тема: overlay */
+    --modal-border-color: #b69d91; /* Светлая тема: граница */
+    --modal-punishment-bg: #a7500029;
+}
+
+/* --- Темная тема --- */
+body.dark {
+    --bg-color: #11141c; /* Фон */
+    --text-color: #cecece; /* Текст */
+    --header-bg: #11141c; /* Фон шапки/футера */
+    --accent-color: #68a1f5; /* Акцентный цвет */
+    --button-bg: #1B1F2D; /* Фон кнопок */
+    --button-hover-bg: #20273a; /* Фон кнопок при наведении */
+    --button-guide: #1a1e29;
+    --button-hover-guide: #1a1e29bf;
+    --border-color: #11141c; /* Цвет границы */
+    --title-color: #68a1f5; /* Цвет пунктов правил */
+    --penalty: #68a1f5;
+    --bg-rule-color: #181B26;
+    --border-rule-color: #11141c;
+    --bg-notes-frame: #1c1f29;
+    --grey-bg-color: #1c1f29;
+    --h2-text-color: white;
+    --color-punishment-permanent: #ff6767;
+    --color-large-title: #68a1f5;
+    --color-color-yellow: #e9ee9e;
+    --color-italic: grey;
+    --footer-color: #68a1f5;
+
+    --color-close-beseda: #f5ff6c; /* Беседа */
+    --bg-color-close-beseda: ;
+    --color-close-pred: #f5a068; /* Клоз Пред */
+    --bg-color-close-pred: rgba(238, 141, 76, 0.096);
+    --color-close-vugovor: #ff3c3c; /* Выговор */
+    --bg-color-close-vugovor: #ff3c3c23;
+
+    --color-commands: #c9c9c9;
+    --bg-color-commands: #2240c457;
+    --bg-color-commands-hover: rgba(101, 129, 255, 0.301);
+    --color-commands-hover: white;
+
+    --color-role-close: #9b59b6;
+    --bg-color-role-close: #9c59b62c;
+
+    --color-role0: #a5c8fe;; /* Стажёр Клоз */
+    --bg-color-role0: rgba(51, 62, 80, 0.521);;
+    --color-role1: #a5c8fe;; /* Клозмейкер */
+    --bg-color-role1: rgba(51, 62, 80, 0.521);;
+    --color-role2: #a5c8fe;
+    --bg-color-role2: rgba(51, 62, 80, 0.521);
+    --color-role3: #a5c8fe;
+    --bg-color-role3: rgba(51, 62, 80, 0.521);
+    --color-role4: #a5c8fe; /* Руководитель */
+    --bg-color-role4: rgba(51, 62, 80, 0.521);
+    --color-role5: #a5c8fe;; /* Администратор Клоз */
+    --bg-color-role5: rgba(51, 62, 80, 0.521);;
+
+    --color-scrollbar: #2c3141;
+    --color-bg-scrollbar: #191d29;
+    --color-hover-scrollbar: #262a3a;
+
+    --rules-search-bg: #1C2131;
+    --rules-search-border: #1C2131;
+
+    --modal-bg: #11141c; /* Темная тема: фон модального окна */
+    --modal-text-color: #cecece; /* Темная тема: текст в модальном окне */
+    --modal-header-bg: #1B1F2D; /* Темная тема: фон заголовка */
+    --modal-header-text: #cfcfda; /* Темная тема: текст заголовка */
+    --modal-overlay-bg: rgba(0, 0, 0, 0.7); /* Темная тема: overlay */
+    --modal-border-color: #37354e; /* Граница модального окна */
+    --modal-punishment-bg: #1b1f29;
+}
+
+/* --- Применение переменных для элементов --- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+header {
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    border-bottom: 2px solid var(--modal-border-color);
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-top: 2px solid var(--modal-border-color);
+    position: relative;
+}
+
+/* Контейнер хедера, теперь с вертикальным расположением */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 14px auto 14px auto;
+  }
+  
+  /* Текст заголовка */
+  .text-title h1 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center; /* Центрирование текста */
+  }
+  
+  /* Логотип */
+  .logo-inline {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  /* Кнопки выбора темы — теперь ниже заголовка */
+  .theme-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+
+
+
+
+.guide-link-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-inline {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* Кнопка "Руководство" */
+.guide-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-color);
+    background: var(--button-guide);
+    padding: 10px;
+    border-radius: 6px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+    width: 120px;
+    text-align: center;
+}
+
+.guide-link:hover {
+    background: var(--button-hover-guide);
+    transform: scale(1.05);
+}
+
+.guide-link .icon {
+    width: 15px;  /* Подберите размер иконки */
+    height: 15px;
+    margin-right: 3px; /* Отступ между иконкой и текстом */
+}
+
+/* Логотип и название */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-title p {
+    font-size: 22px;
+}
+
+.site-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Кнопки выбора темы */
+.theme-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.theme-buttons button {
+    background: linear-gradient(to right, #ffffff, #453aac);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Кнопка светлой темы */
+.theme-buttons #light-theme {
+    background: linear-gradient(to right, #E1D4C2, #966944);
+
+}
+
+/* Кнопка темной темы */
+.theme-buttons #dark-theme{
+    background: linear-gradient(to right, #7c8ca3, #0c1118);
+
+}
+
+/* Кнопка темни синей темы */
+.theme-buttons #blue-theme{
+    background: linear-gradient(to right, #537ec0, #0f0c36);
+
+}
+
+/* Кнопка "Вверх" */
+#up-button {
+    display: block !important;
+    opacity: 1 !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    z-index: 1000;
+}
+  
+.theme-buttons button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+  
+.theme-buttons i {
+    font-size: 20px;
+}
+
+.theme-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.theme-buttons button.active {
+    border-color: #fff; /* Подсвечиваем выбранную тему */
+    transform: scale(1.1); /* Увеличиваем активную кнопку */
+}
+
+  /* Стили поиска */
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+  
+#rules-search {
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1.5px solid var(--rules-search-border);
+    cursor: pointer;
+    background-color: var(--rules-search-bg);
+}
+
+#rules-search-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--modal-border-color);
+}
+  
+#rules-search-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+  
+#rules-search-results li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: var(--modal-bg);
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#rules-search-results li:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.footer-color {
+    color: var(--footer-color);
+}
+
+.text-important {
+    color: var(--accent-color);
+}
+
+.title-description {
+    color: #e6e6f4;
+    text-align: center;
+}
+
+.rules-container {
+    padding: 40px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Основные стили таблицы */
+.rules-table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Оформление заголовков */
+.rules-table thead {
+    font-weight: bold;
+}
+
+/* Столбцы с заданной шириной */
+.rules-table th:nth-child(1),
+.rules-table td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+.rules-table th:nth-child(2),
+.rules-table td:nth-child(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.rules-table th:nth-child(3),
+.rules-table td:nth-child(3) {
+    width: 70%;
+}
+
+/* Общие стили для ячеек */
+.rules-table th,
+.rules-table td {
+    padding: 8px 12px; /* Небольшие отступы внутри ячеек */
+    text-align: left; /* Выравнивание по левому краю (кроме первого и второго столбца) */
+    border: 1px solid var(--modal-border-color); /* Оставляем пустой цвет границ */
+}
+
+/* Выравниваем заголовки по центру */
+.rules-table th {
+    text-align: center;
+}
+
+th {
+    font-size: 18px;
+    color: var(--accent-color);
+}
+
+/* Стили таблицы для 1.8*/
+.rules-table-1-8 {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Оформление заголовков */
+.rules-table-1-8 thead {
+    font-weight: bold;
+}
+
+/* Столбцы с заданной шириной */
+.rules-table-1-8 th:nth-child(1),
+.rules-table-1-8 td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+.rules-table-1-8 th:nth-child(2),
+.rules-table-1-8 td:nth-child(2) {
+    width: 70%;
+}
+
+.rules-table-1-8 th:nth-child(3),
+.rules-table-1-8 td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
+
+/* Общие стили для ячеек */
+.rules-table-1-8 th,
+.rules-table-1-8 td {
+    padding: 8px 12px; /* Небольшие отступы внутри ячеек */
+    text-align: left; /* Выравнивание по левому краю (кроме первого и второго столбца) */
+    border: 1px solid var(--modal-border-color); /* Оставляем пустой цвет границ */
+}
+
+/* Выравниваем заголовки по центру */
+.rules-table-1-8 th {
+    text-align: center;
+}
+
+/* Стили таблицы для 1.11*/
+.rules-table-1-11 {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Оформление заголовков */
+.rules-table-1-11 thead {
+    font-weight: bold;
+}
+
+/* Столбцы с заданной шириной */
+.rules-table-1-11 th:nth-child(1),
+.rules-table-1-11 td:nth-child(1) {
+    width: 20%;
+    text-align: center;
+}
+
+.rules-table-1-11 th:nth-child(2),
+.rules-table-1-11 td:nth-child(2) {
+    width: 70%;
+}
+
+/* Общие стили для ячеек */
+.rules-table-1-11 th,
+.rules-table-1-11 td {
+    padding: 8px 12px; /* Небольшие отступы внутри ячеек */
+    text-align: left; /* Выравнивание по левому краю (кроме первого и второго столбца) */
+    border: 1px solid var(--modal-border-color); /* Оставляем пустой цвет границ */
+}
+
+/* Выравниваем заголовки по центру */
+.rules-table-1-11 th {
+    text-align: center;
+}
+
+.number-rule {
+    font-weight: bold;
+}
+
+.penalty {
+    color: var(--penalty);
+    font-weight: bold;
+}
+
+.color-red {
+    color: var(--color-punishment-permanent);
+}
+
+.penalty-red {
+    color: var(--color-close-vugovor);
+    font-weight: bold;
+}
+
+.title-color {
+    color: var(--title-color);
+}
+
+.rule-links {
+    color: var(--text-color);
+}
+
+.color-orange {
+    color: var(--accent-color);
+}
+
+.grey-bg {
+    background-color: var(--grey-bg-color);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--text-color);
+}
+
+
+
+/* Кнопка вернуться на верх странички */ 
+.Btn {
+    background: linear-gradient(#537ec0, #201b5c);
+
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed; /* фиксированное положение на экране */
+    bottom: 20px; /* отступ от низа */
+    right: 20px; /* отступ от правого края */
+    border: none;
+    z-index: 1000; /* поверх остальных элементов */
+    opacity: 0; /* скрыта по умолчанию */
+    visibility: hidden; /* скрыта из DOM */
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.Btn.show {
+    opacity: 1; /* показать кнопку */
+    visibility: visible; /* сделать видимой */
+}
+  
+  .arrow path {
+    fill: white;
+  }
+  
+  .text-Btn {
+    font-size: 0.7em;
+    width: 100px;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -18px;
+    opacity: 0;
+    transition-duration: 0.7s;
+}
+  
+  .Btn:hover .text {
+    opacity: 1;
+    transition-duration: .7s;
+  }
+  
+  .Btn:hover .arrow {
+    animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  
+ /* === АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ === */
+
+/* Базовые стили для мобильных устройств */
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .search-container {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .theme-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .rules-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 карточки в строке */
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+/* Маленькие телефоны (320px - 480px) */
+@media screen and (max-width: 480px) {
+    .header-actions {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .theme-buttons {
+        margin: 0 auto;
+    }
+
+    .logo-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .logo-title p {
+        font-size: 18px;
+    }
+
+    .logo-inline {
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .guide-link .icon {
+        width: 12px;  /* Подберите размер иконки */
+        height: 12px;
+        margin-right: 3px; /* Отступ между иконкой и текстом */
+    }
+
+    .guide-link {
+        font-size: 14px;
+    }    
+}
+
+/* Средние телефоны (481px - 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body {
+        font-size: 12px;
+    }
+
+
+    .theme-buttons {
+        margin: 0 auto;
+    }
+
+    .logo-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .logo-title p {
+        font-size: 18px;
+    }
+
+    .logo-inline {
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .guide-link .icon {
+        width: 12px;  /* Подберите размер иконки */
+        height: 12px;
+        margin-right: 3px; /* Отступ между иконкой и текстом */
+    }
+
+    .guide-link {
+        font-size: 14px;
+    }
+
+    .rules-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 карточки в строке */
+    }
+
+    .theme-buttons {
+        justify-content: center;
+        gap: 5px;
+        margin: 0 auto;
+    }
+
+    .rules-container {
+        padding: 10px;
+    }
+
+    .category h2 {
+        font-size: 18px;
+    }
+
+    .rule .penalty, .rule p {
+        font-size: 12px;
+        margin-top: auto;
+    }
+
+    .rule h4 {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .rule p {
+        margin: 5px 0 10px 0;
+    }
+
+    .rule button, .note button {
+        font-size: 13px;
+    }
+
+    .note h4 {
+        margin: 0 0 10px 0;
+        font-size: 13px;
+    }
+
+    .note p {
+        margin: 5px 0 10px 0;
+    }
+
+    .note button, .note button {
+        font-size: 13px;
+    }
+
+    .search-container input {
+        width: 90%;
+    }
+
+    .custom-modal {
+        width: 90%;
+    }
+
+    .custom-modal-header h2{
+        font-size: 16px;
+    }
+
+    .custom-modal-header #rules-search-input {
+        width: 65%;
+    }
+
+    #rules-search-results li {
+        font-size: 13px;
+    }
+
+    .modal-header h3 {
+        font-size: 14px;
+    }
+
+    .modal {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    .title-info {
+        font-size: 15px;
+    }
+
+    .title-penalty {
+        font-size: 15px;
+    }
+
+    /* Общие стили для ячеек */
+    .rules-table th,
+    .rules-table td {
+        padding: 5px 6px; /* Небольшие отступы внутри ячеек */
+        font-size: 12px;
+    }
+
+    /* Выравниваем заголовки по центру */
+    .rules-table th {
+        font-size: 12px;
+    }
+
+    /* Cтили для ячеек 1.8 */
+    .rules-table-1-8 th,
+    .rules-table-1-8 td {
+        padding: 5px 6px; /* Небольшие отступы внутри ячеек */
+        font-size: 12px;
+    }
+
+    /* Выравниваем заголовки по центру */
+    .rules-table-1-8 th {
+        font-size: 12px;
+    }
+
+    /* Стили для ячеек 1.11 */
+    .rules-table-1-11 th,
+    .rules-table-1-11 td {
+        padding: 5px 6px; /* Небольшие отступы внутри ячеек */
+        font-size: 12px;
+    }
+
+    /* Выравниваем заголовки по центру */
+    .rules-table-1-11 th {
+        font-size: 12px;
+    }
+
+    .text-title h1 {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+}
+
+/* Айпад и планшеты (769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+    .header-actions {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+    .logo-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .logo-title p {
+        font-size: 18px;
+    }
+
+    .logo-inline {
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .guide-link .icon {
+        width: 12px;  /* Подберите размер иконки */
+        height: 12px;
+        margin-right: 3px; /* Отступ между иконкой и текстом */
+    }
+
+    .guide-link {
+        font-size: 14px;
+    }
+
+    .rules-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 карточки в строке для планшетов */
+    }
+}
+
+

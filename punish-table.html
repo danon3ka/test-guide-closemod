@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица наказаний - Closemod</title>
+    <link rel="stylesheet" href="styles/pt-styles.css">
+    <link rel="icon" type="image/png" href="icon.gif">
+    <!-- Подключение Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+                <!-- Лого и Кнопка "Руководство" -->
+                <div class="logo-title">
+                    <img class="logo-inline" src="https://i.postimg.cc/pXKKfWP2/icon.gif" alt="logo">
+                    <div class="guide-link-container">
+                        <a href="index.html" class="guide-link">
+                            <img id="theme-icon" src="img/icon-link-blue.png" alt="icon" class="icon">
+                            Руководство <span class="title-color">Closemod</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Кнопки выбора темы -->
+                <div class="theme-buttons">
+                    <button id="light-theme" title="Светлая тема"><i class="fas fa-sun"></i></button>
+                    <button id="dark-theme" title="Темная тема"><i class="fas fa-moon"></i></button>
+                    <button id="blue-theme" title="Темно-синяя тема"><i class="fas fa-cloud"></i></button>
+                </div>
+            <button class="Btn" id="up-button">
+                <svg height="1.2em" class="arrow" viewBox="0 0 512 512">
+                    <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path>
+                </svg>
+                <p class="text-Btn">Вверх</p>
+            </button>
+        </div>
+    </header>
+    
+      
+
+    <div class="rules-container" id="rulesContainer">
+
+        <div class="punich-table">
+            <table class="rules-table">
+                <thead>
+                    <tr>
+                        <th>Пункт</th>
+                        <th>Наказание</th>
+                        <th>Формулировка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="number-rule">1.1</td>
+                        <td>Бан <span class="penalty">1ч</span></td>
+                        <td>Запрещено оскорбление/провокация участников сервера.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.2</td>
+                        <td>Бан <span class="penalty">1ч</span></td>
+                        <td>Все игроки клоза должны находиться в голосовых каналах команд.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.3</td>
+                        <td>Бан <span class="penalty">1ч</span></td>
+                        <td>Запрещены деструктивные действия, которые могут привести команду к поражению.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="number-rule">1.4</td>
+                        <td>Бан <span class="penalty">90д</span></td>
+                        <td>Запрещено использование сторонних программ макросов/ахк/скриптов/читов/скинченджеров.А так же запрещено отказываться от проверки на читы.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.5</td>
+                        <td>Бан <span class="penalty">1ч</span></td>
+                        <td>Игроки клоза обязаны предоставлять информацию о противниках(местоположение врага, кол-во нанесенного урона и т.д).</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.6</td>
+                        <td>Бан <span class="penalty">3ч</span></td>
+                        <td>Запрещено покидать матч до его завершения.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.7</td>
+                        <td>Бан <span class="penalty">60м</span></td>
+                        <td>Запрещена неявка на клоз после записи и его начала.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.8</td>
+                        <td><a class="rule-links" href="#rule-1-8">Подробнее</a></td>
+                        <td>Запрещено оскорбление родных.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.9</td>
+                        <td>Бан <span class="penalty">1д</span></td>
+                        <td>Запрещено любое упоминание политики, политических деятелей, политических ситуаций, а так же запрещено любое упоминание религии.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.10</td>
+                        <td>Бан <span class="penalty">1д</span></td>
+                        <td>Запрещено использование неадекватных и провоцирующих ников в игре.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.11</td>
+                        <td><a class="rule-links" href="#rule-1-11">Подробнее</a></td>
+                        <td>Запрещено нарушение правил сообщества Discord.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.12</td>
+                        <td>Бан от <span class="penalty">30м</span></td>
+                        <td>Запрещено "воровать" слот на клозе.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.13</td>
+                        <td>Бан <span class="penalty">3д</span></td>
+                        <td>Запрещено использовать недоработки игры(баги), негативно влияющие на игровой процесс.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.14</td>
+                        <td>Бан <span class="penalty">2ч</span></td>
+                        <td>Запрещено создавать помехи в голосовых каналах.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.15</td>
+                        <td>Бан <span class="penalty">3ч</span></td>
+                        <td>Запрещено использовать программы для изменения голоса/транслировать музыку или громкие звуки.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">1.16</td>
+                        <td>Бан <span class="penalty">1ч</span></td>
+                        <td>Запрещено отправлять жалобы, не несущие никакого смысла, а также флудить жалобами.</td>
+                    </tr>
+                    
+
+
+                    <!-- Добавьте до 20 строк по аналогии -->
+                </tbody>
+            </table>
+            
+        </div>
+
+    </div>
+
+    <div class="rules-container" id="rulesContainer">
+        <p><span class="text-important">Администрация</span> - категория из общих правил сервера</p>
+        <div class="punich-table">
+            <table class="rules-table">
+                <thead>
+                    <tr>
+                        <th>Пункт</th>
+                        <th>Наказание</th>
+                        <th>Формулировка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="number-rule">3.1</td>
+                        <td>Бан <span class="penalty">1д</span></td>
+                        <td>Запрещено выдавать себя за Closemod сервера, если вы таковым не являетесь.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">3.2</td>
+                        <td>Бан <span class="penalty">1ч</span></td>
+                        <td>Запрещены насмешки прямым или косвенным образом, оскорбляющие Closemod сервера.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">3.3</td>
+                        <td>Бан <span class="penalty">4ч</span></td>
+                        <td>Запрещено несоблюдение прочих правил матча, указанных Клозмодом сервера в частном порядке.</td>
+                    </tr>
+                    <tr>
+                        <td class="number-rule">3.4</td>
+                        <td>Бан <span class="penalty">14д</span></td>
+                        <td>Запрещено обманывать Closemod сервера (введение в заблуждение/дезинфо/фейк report и т.п.).</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+
+    </div>
+
+    <div class="rules-container" id="rule-1-8">
+        <h3> Подробная информация по <span class="text-important">1.8</span></h3>
+        <div class="punich-table">
+            <table class="rules-table-1-8">
+                <thead>
+                    <tr>
+                        <th>Случай</th>
+                        <th>Формулировка</th>
+                        <th>Действие</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="number-rule">1</td>
+                    <td class="notes-text">Использование формы употребления родных как случай агресси или ненависти с употребление нецензурных слов или высказываний в адрес родителей. Считается прямое или косвенное упоминание*</br></br><span class="color-orange"><span class="color-orange">Пример:</span></span> <span class="grey-bg">твой папа деб*л</span>, <span class="grey-bg">твоя мама д*ра</span>.</td>
+                    <td class="notes-text">Бан <span class="penalty">2д</span></td>
+                </tr>
+                <tr>
+                    <td class="number-rule">2</td>
+                    <td class="notes-text">Употребление в адрес родителей высказываний, описывающих нанесение вреда здоровью, половых связий и прочих действий нарушающих рамки моральной и этической стороны*</br></br><span class="color-orange">Пример 1:</span> <span class="grey-bg">я твою маму пиз*ил ногами</span></br></br><span class="color-orange">Пример 2:</span> <span class="grey-bg">твоя мать шл*ха, батя пид*р</span>.</td>
+                    <td class="notes-text"><span class="color-red">Обращение к модерации</span></td>
+                </tr>
+                <tr>
+                    <td class="number-rule">3</td>
+                    <td class="notes-text">Употребление в адрес родителей высказываний которые содержат случаи летального исхода</br></br><span class="color-orange">Пример:</span> <span class="grey-bg">я твою семью уб*ю</span>.</td>
+                    <td class="notes-text"><span class="color-red">Обращение к модерации</span></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="rules-container" id="rule-1-11">
+        <h3> Подробная информация по <span class="text-important">1.11</span></h3>
+        <p> <span class="text-important">Нарушение</span> пункта - <span class="color-red">Перманентная блокировка</span> до момента основного разбана.</p>
+        <div class="punich-table">
+            <table class="rules-table-1-11">
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Правила сообщества Discord</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="number-rule">1</td>
+                    <td>Не допускайте притеснений: не организуйте, не поддерживайте и не участвуйте в них.</br></br><span class="color-orange">Пример</span>: Участник начинает оскорблять другого в чате, называя его неудачником. Другие поддерживают его и пишут: <span class="grey-bg">Давайте бегать за ним по румам и говорить что он долбоеб</span>.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">2</td>
+                    <td>Не угрожайте насилием или причинением вреда другим людям.</br></br><span class="color-orange">Пример:</span> <span class="grey-bg">Скинь адрес, приеду и разберусь с тобой.</span></td>
+                </tr>
+                <tr>
+                    <td class="number-rule">3</td>
+                    <td>Не используйте язык вражды и не проявляйте ненависть к другим.</br></br><span class="color-orange">Пример:</span> Оскорбления на основе расы, пола, ориентации или религии, инвалидностей.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">4</td>
+                    <td>Не организуйте, не поддерживайте и не пропагандируйте насильственный экстремизм.</br></br><span class="color-orange">Пример:</span> Участник в чате пишет: <span class="grey-bg">Талибаны правы, их действия оправданы</span>, и публикует изображение, пропагандирующее насилие.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">5</td>
+                    <td>Не запрашивайте сексуальный контент и не вступайте в сексуальные отношения с людьми младше 18 лет.</br></br><span class="color-orange">Пример:</span> Письменные просьбы отправить интимные фотографии или предложения встретиться для сексуальных отношений с несовершеннолетними.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">6</td>
+                    <td>Не предоставляйте сексуально откровенный контент лицам моложе 18 лет.</br></br><span class="color-orange">Пример:</span> Отправка или демонстрация интимных фотографий или видео несовершеннолетним в войсе или через личные сообщения.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">7</td>
+                    <td>Не делитесь, не распространяйте и не создавайте сексуально откровенный или намекающий контент других людей без их согласия.</br></br><span class="color-orange">Пример:</span> Публикация интимных фотографий другого человека без его разрешения или распространение личных сообщений с сексуальным подтекстом.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">8</td>
+                    <td>	Не делитесь контентом, который пропагандирует или оправдывает самоубийство или физическое самоповреждение.</br></br><span class="color-orange">Пример:</span> Публикация изображений или сообщений, призывающих к самоповреждению или восхваляющих суицид как выход из ситуации.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">9</td>
+                    <td>Не делитесь реальными изображениями или видео, содержащими насилие, кровь или жестокое обращение с животными или людьми, особенно если это делается для того, чтобы напугать или шокировать людей.</br><span class="color-orange">Пример:</span> Отправка видео с жестоким убийством животного или сцены насилия, чтобы вызвать у других страха или неприятные эмоции.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">10</td>
+                    <td>	Не отправляйте нежелательные массовые сообщения (спам) другим пользователям.</br><span class="color-orange">Пример:</span> Пользователь рассылает одно и то же сообщение в личные сообщения множеству людей, например: Привет! У меня есть классная информация для тебя, открой ссылку и узнай больше! — без того, чтобы участники сами просили об этом.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">11</td>
+                    <td>Не распространяйте ложную или вводящую в заблуждение информацию.</br><span class="color-orange">Пример:</span> Публикация фейковых новостей или недостоверных данных, чтобы обмануть других участников.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">12</td>
+                    <td>Не притворяйтесь кем-то другим с целью обмана или вреда.</br><span class="color-orange">Пример:</span> Создание аккаунта с чужим именем и аватаром, чтобы выдавать себя за этого человека и вводить других в заблуждение.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">13</td>
+                    <td>Не совершайте действий, которые могут угрожать безопасности аккаунтов, сетей или систем.</br></br><span class="color-orange">Пример:</span> Попытка взломать чужую учетную запись, распространение вредоносных программ или атаки на серверы.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">14</td>
+                    <td>	Не используйте Discord для организации или продвижения финансового мошенничества.</br><span class="color-orange">Пример:</span> Создание схемы "быстрого заработка" или отправка сообщений с фальшивыми инвестиционными предложениями, чтобы обмануть пользователей и получить их деньги.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">15</td>
+                    <td>Не совершайте действий, которые обманывают других ради получения прибыли.</br></br><span class="color-orange">Пример</span>: Продажа поддельных товаров или услуг, сбор денег на несуществующий проект.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">16</td>
+                    <td>Не публикуйте контент, который нарушает права интеллектуальной собственности других людей.</br></br><span class="color-orange">Пример:</span> Распространение фильмов, музыки или изображений без разрешения правообладателя.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">17</td>
+                    <td>Не занимайтесь продвижением или продажей опасных или запрещенных товаров.</br></br><span class="color-orange">Пример:</span> Продажа наркотиков, оружия или поддельных документов через Discord.</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">18</td>
+                    <td>Не организуйте и не участвуйте в незаконных азартных играх.</br></br><span class="color-orange">Пример:</span> Проведение ставок на деньги или организацию лотерей без лицензии через Discord. (Если человек намеренно пропагондирует)</td>
+                </tr>
+                <tr>
+                    <td class="number-rule">19</td>
+                    <td>Не организовывайте, не поддерживайте и не участвуйте в незаконной или опасной деятельности.</br></br><span class="color-orange">Пример:</span> Участник пишет: <span class="grey-bg">Давайте встретимся в 15:00, чтобы устроить драку с другими людьми</span>.</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <p>© 2025 Руководство - <span class="footer-color">Closemod</span> | Версия <span class="footer-color">2.1.0</span></p>
+            </div>
+            <div>
+                <p>Разработчик: <span class="footer-color">@danon3</span></p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+    <script>
+        function setTheme(theme) {
+        // Удаляем все предыдущие темы
+        document.body.classList.remove('dark-theme', 'blue-theme');
+        
+        // Добавляем выбранную тему
+        if (theme) {
+        document.body.classList.add(theme);
+        }
+
+        // Сохраняем выбор темы в localStorage
+        localStorage.setItem('theme', theme);
+    }
+
+    // Проверка сохраненной темы в localStorage
+    window.onload = function() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+        setTheme(savedTheme);
+        }
+    }
+
+    // Пример кнопок для смены темы
+    document.getElementById('light-theme').addEventListener('click', () => setTheme(''));
+    document.getElementById('dark-theme').addEventListener('click', () => setTheme('dark-theme'));
+    document.getElementById('blue-theme').addEventListener('click', () => setTheme('blue-theme'));
+
+
+    
+    
+    document.addEventListener("DOMContentLoaded", () => {
+        const body = document.body;
+        const header = document.querySelector("header");
+        const footer = document.querySelector("footer");
+        const categories = document.querySelectorAll(".category h2");
+        const titleColor = document.querySelectorAll(".title-color");
+        const tablePunishmentsTransitions = document.querySelectorAll(".table-punishments-transitions");
+        const themeButtons = document.querySelectorAll(".theme-buttons button");
+
+        // Функция смены темы
+        function setTheme(theme) {
+            // Отладка
+            console.log(`Применяем тему: ${theme}`);
+
+            // Устанавливаем класс темы для элементов
+            body.className = theme;
+            header.className = theme;
+            footer.className = theme;
+
+            categories.forEach((category) => {
+                category.className = theme;
+            });
+
+            tablePunishmentsTransitions.forEach((tablePunishmentsTransitions) => {
+                tablePunishmentsTransitions.className = `table-punishments-transitions ${theme}`;
+            });
+
+            // Обновляем кнопки тем
+            themeButtons.forEach((btn) => btn.classList.remove("active")); // Снимаем выделение
+            const activeButton = document.getElementById(`${theme || "blue"}-theme`); // Для основной темы
+            if (activeButton) {
+                activeButton.classList.add("active");
+            }
+        }
+
+        // Обработчики для кнопок тем
+        document.getElementById("light-theme").addEventListener("click", () => {
+            setTheme("light");
+        });
+
+        document.getElementById("dark-theme").addEventListener("click", () => {
+            setTheme("dark");
+        });
+
+        document.getElementById("blue-theme").addEventListener("click", () => {
+            setTheme(""); // Темно-синяя тема по умолчанию
+        });
+    });
+
+
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const themeButtons = document.querySelectorAll(".theme-buttons button");
+    
+        function setTheme(theme) {
+        document.body.className = theme; // Устанавливаем тему
+        themeButtons.forEach((btn) => btn.classList.remove("active"));
+        document.getElementById(`${theme || "blue"}-theme`).classList.add("active");
+        }
+    
+        // Привязка кнопок к темам
+        document.getElementById("light-theme").addEventListener("click", () => setTheme("light"));
+        document.getElementById("dark-theme").addEventListener("click", () => setTheme("dark"));
+        document.getElementById("blue-theme").addEventListener("click", () => setTheme("")); // Основная тема
+    });
+
+    // Получаем кнопки
+    const lightThemeButton = document.getElementById('light-theme');
+    const darkThemeButton = document.getElementById('dark-theme');
+
+    // Функция для применения темы
+    function applyTheme(theme) {
+    document.body.className = theme; // Устанавливаем класс для body
+    localStorage.setItem('theme', theme); // Сохраняем выбор в localStorage
+    }
+
+    // Проверяем сохраненную тему при загрузке страницы
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+    applyTheme(savedTheme); // Применяем сохраненную тему
+    } else {
+    applyTheme('light'); // По умолчанию светлая тема
+    }
+
+    // Назначаем обработчики кликов
+lightThemeButton.addEventListener('click', () => applyTheme('light'));
+darkThemeButton.addEventListener('click', () => applyTheme('dark'));
+
+
+const scrollBtn = document.querySelector('.Btn');
+const footer = document.querySelector('.footer');
+
+window.addEventListener('scroll', () => {
+    const footerRect = footer.getBoundingClientRect(); // Получаем координаты футера
+    const windowHeight = window.innerHeight; // Высота окна браузера
+
+    // Показываем кнопку, если прокрутили вниз на 100px
+    if (window.scrollY > 300) {
+        scrollBtn.classList.add('show');
+    } else {
+        scrollBtn.classList.remove('show');
+    }
+
+    // Регулируем положение кнопки выше футера
+    if (footerRect.top < windowHeight) {
+        scrollBtn.style.bottom = `${windowHeight - footerRect.top + 20}px`; // Поднимаем кнопку
+    } else {
+        scrollBtn.style.bottom = '20px'; // Стандартное положение
+    }
+});
+
+// Прокрутка наверх при клике
+scrollBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const upButton = document.getElementById("up-button");
+
+    const themes = {
+        "light-theme": "linear-gradient(to right, rgb(223 203 175), #966944)",
+        "dark-theme": "linear-gradient(to right, #7c8ca3, rgb(25 33 45))",
+        "blue-theme": "linear-gradient(to right, #537ec0, #0f0c36)",
+    };
+
+    // Функция для обновления цвета кнопки
+    function updateButtonColor(themeId) {
+        if (themes[themeId]) {
+            upButton.style.background = themes[themeId];
+        }
+    }
+
+    // При изменении темы
+    document.querySelectorAll(".theme-buttons button").forEach(button => {
+        button.addEventListener("click", () => {
+            const themeId = button.id;
+            localStorage.setItem("selectedTheme", themeId); // Сохраняем тему
+            updateButtonColor(themeId); // Применяем цвет кнопки
+        });
+    });
+
+    // Проверяем сохраненную тему при загрузке
+    const savedTheme = localStorage.getItem("selectedTheme");
+    if (savedTheme) {
+        updateButtonColor(savedTheme); // Применяем цвет кнопки при загрузке
+    }
+});
+
+// Функция для смены темы и иконки
+function changeTheme(theme) {
+    const icon = document.getElementById('theme-icon');
+
+    // Изменение иконки в зависимости от выбранной темы
+    if (theme === 'light') {
+        icon.src = 'img/icon-link-light.png'; // Иконка для светлой темы
+        document.body.classList.remove('dark-theme', 'blue-theme');
+        document.body.classList.add('light-theme');
+        localStorage.setItem('theme', 'light'); // Сохраняем выбор в localStorage
+        localStorage.setItem('icon', 'light-icon.png'); // Сохраняем иконку
+    } else if (theme === 'dark') {
+        icon.src = 'img/icon-link-dark.png'; // Иконка для темной темы
+        document.body.classList.remove('light-theme', 'blue-theme');
+        document.body.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark'); // Сохраняем выбор в localStorage
+        localStorage.setItem('icon', 'dark-icon.png'); // Сохраняем иконку
+    } else if (theme === 'blue') {
+        icon.src = 'img/icon-link-blue.png'; // Иконка для синей темы
+        document.body.classList.remove('light-theme', 'dark-theme');
+        document.body.classList.add('blue-theme');
+        localStorage.setItem('theme', 'blue'); // Сохраняем выбор в localStorage
+        localStorage.setItem('icon', 'blue-icon.png'); // Сохраняем иконку
+    }
+}
+
+// Восстановление темы и иконки из localStorage
+function restoreTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    const savedIcon = localStorage.getItem('icon');
+    
+    if (savedTheme) {
+        // Восстанавливаем тему
+        changeTheme(savedTheme);
+    } else {
+        // Если нет сохраненной темы, по умолчанию светлая тема
+        changeTheme('light');
+    }
+}
+
+// Обработчики для кнопок смены темы
+document.getElementById('light-theme').addEventListener('click', () => changeTheme('light'));
+document.getElementById('dark-theme').addEventListener('click', () => changeTheme('dark'));
+document.getElementById('blue-theme').addEventListener('click', () => changeTheme('blue'));
+
+// Восстановление темы при загрузке страницы
+window.onload = restoreTheme;
+    </script>
+</html>

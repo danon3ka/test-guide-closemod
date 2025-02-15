@@ -7,6 +7,8 @@
     --accent-color: #68a1f5; /* Акцентный цвет */
     --button-bg: #1E1B2C; /* Фон кнопок */
     --button-hover-bg: #242135; /* Фон кнопок при наведении */
+    --button-pt: #1f1d2d;
+    --button-hover-pt: #1f1d2d7a;
     --border-color: #4b4971; /* Цвет границы */
     --title-color: #68a1f5; /* Цвет пунктов правил */
     --penalty: #68a1f5;
@@ -73,6 +75,8 @@ body.light {
     --accent-color: #a75000; /* Акцентный цвет */
     --button-bg: #A78D78; /* Фон кнопок */
     --button-hover-bg: #a78d78b9; /* Фон кнопок при наведении */
+    --button-pt: #c3af9fb9;
+    --button-hover-pt: #cebcadb9;
     --border-color: #6E473B; /* Цвет границы */
     --title-color: #a75000; /* Цвет пунктов правил */
     --penalty: #ab6820;
@@ -140,6 +144,8 @@ body.dark {
     --accent-color: #68a1f5; /* Акцентный цвет */
     --button-bg: #1B1F2D; /* Фон кнопок */
     --button-hover-bg: #20273a; /* Фон кнопок при наведении */
+    --button-pt: #1a1e29;
+    --button-hover-pt: #1a1e29bf;
     --border-color: #11141c; /* Цвет границы */
     --title-color: #68a1f5; /* Цвет пунктов правил */
     --penalty: #68a1f5;
@@ -205,7 +211,20 @@ body {
     padding: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-size: 15px;
 }
+
+/* Блокировка скролла */
+body.modal-open {
+    overflow: hidden;
+  }
+  
+  /* Размытие фона */
+  body.modal-open > *:not(.custom-modal):not(.modal):not(.custom-modal-overlay):not(.modal-overlay) {
+    filter: blur(4px);
+    transition: filter 0.3s ease;
+  }
+  
 
 header {
     background-color: var(--header-bg);
@@ -228,7 +247,7 @@ footer {
 
   
 
-/* Контейнер шапки */
+/* Общий контейнер */
 .header-container {
     display: flex;
     align-items: center;
@@ -237,11 +256,49 @@ footer {
     margin: 0 auto;
 }
 
-/* Логотип и название */
+/* Блок с логотипом и поиском */
 .logo-title {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/* Контейнер для тем и ссылки на таблицу */
+.theme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Выравниваем вправо */
+}
+
+/* Кнопки тем */
+.theme-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Ссылка на таблицу наказаний */
+.punishment-table-link {
+    margin-top: 10px; /* Отступ от кнопок тем */
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--text-color);
+    background: var(--button-pt);
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.punishment-table-link:hover {
+    background: var(--button-hover-pt);
+    transform: scale(1.05);
+}
+
+.punishment-table-link .icon {
+    width: 12px;  /* Подберите размер иконки */
+    height: 12px;
+    margin-right: 3px; /* Отступ между иконкой и текстом */
 }
 
 .logo-title p {
@@ -426,7 +483,7 @@ footer {
 
 .rule .penalty { /* Минимальное наказание */
     margin: 0; /* Уберите отступы, если есть */
-    font-size: 16px; /* Опционально: размер текста */
+    font-size: 15px; /* Опционально: размер текста */
     color: var(--penalty);
 }
 
@@ -651,6 +708,98 @@ td:nth-child(3) {
     transition: all 0.3s ease-in-out;
 }
 
+th {
+    font-size: 18px;
+    color: var(--accent-color);
+}
+
+/* Стили таблицы для 1.8*/
+.rules-table-1-8 {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Оформление заголовков */
+.rules-table-1-8 thead {
+    font-weight: bold;
+}
+
+/* Столбцы с заданной шириной */
+.rules-table-1-8 th:nth-child(1),
+.rules-table-1-8 td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+.rules-table-1-8 th:nth-child(2),
+.rules-table-1-8 td:nth-child(2) {
+    width: 70%;
+}
+
+.rules-table-1-8 th:nth-child(3),
+.rules-table-1-8 td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
+
+/* Общие стили для ячеек */
+.rules-table-1-8 th,
+.rules-table-1-8 td {
+    padding: 8px 12px; /* Небольшие отступы внутри ячеек */
+    text-align: left; /* Выравнивание по левому краю (кроме первого и второго столбца) */
+    border: 1px solid var(--modal-border-color); /* Оставляем пустой цвет границ */
+}
+
+/* Выравниваем заголовки по центру */
+.rules-table-1-8 th {
+    text-align: center;
+}
+
+/* Стили таблицы для 1.11*/
+.rules-table-1-11 {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Оформление заголовков */
+.rules-table-1-11 thead {
+    font-weight: bold;
+}
+
+/* Столбцы с заданной шириной */
+.rules-table-1-11 th:nth-child(1),
+.rules-table-1-11 td:nth-child(1) {
+    width: 20%;
+    text-align: center;
+}
+
+.rules-table-1-11 th:nth-child(2),
+.rules-table-1-11 td:nth-child(2) {
+    width: 70%;
+}
+
+/* Общие стили для ячеек */
+.rules-table-1-11 th,
+.rules-table-1-11 td {
+    padding: 8px 12px; /* Небольшие отступы внутри ячеек */
+    text-align: left; /* Выравнивание по левому краю (кроме первого и второго столбца) */
+    border: 1px solid var(--modal-border-color); /* Оставляем пустой цвет границ */
+}
+
+/* Выравниваем заголовки по центру */
+.rules-table-1-11 th {
+    text-align: center;
+}
+
+.number-rule {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .title {
     display: flex;
     align-items: center;
@@ -688,7 +837,10 @@ td:nth-child(3) {
 }
 
 
-
+.penalty-1-8 {
+    color: var(--penalty);
+    font-weight: bold;
+}
 
 .modal {
     background-color: var(--modal-bg);
@@ -963,6 +1115,14 @@ td:nth-child(3) {
     color: var(--text-color);
 }
 
+.grey-bg-kbd {
+    background-color: var(--grey-bg-color);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
 .title-color {
     color: var(--title-color);
 }
@@ -1043,6 +1203,10 @@ td:nth-child(3) {
 
 .tb-1-11 {
     color: var(--color-punishment-permanent);
+}
+
+.links {
+    color: var(--accent-color);
 }
 
 /* Кнопка вернуться на верх странички */ 
@@ -1129,11 +1293,54 @@ td:nth-child(3) {
     }
 }
 
+
+/* Скрываем стандартный маркер для WebKit-браузеров */
+details summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  /* Делаем summary inline-block и убираем стандартный маркер */
+  details summary {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Добавляем собственный символ сразу после summary */
+  details summary::after {
+    content: "﹥"; /* символ закрытого состояния */
+    font-size: 18px;
+    margin-left: 5px; /* небольшой отступ между текстом и символом */
+    transition: transform 0.2s ease;
+  }
+  
+  /* Когда details открыт, меняем символ на другой */
+  details[open] summary::after {
+    content: "⌵"; /* символ открытого состояния */
+  }
+  
+  /* Добавляем отступ для содержимого details (то есть для всего, кроме summary) */
+  details > *:not(summary) {
+    padding-left: 20px; /* отступ как табуляция */
+  }
+  
+  details {
+    margin: 15px 0 15px 0;
+  }
+
+  details summary {
+    color: var(--text-color);
+  }
+
   
  /* === АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ === */
 
 /* Базовые стили для мобильных устройств */
 @media screen and (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
     .header-container {
         display: flex;
         flex-direction: column;
@@ -1193,7 +1400,7 @@ td:nth-child(3) {
     }
 
     .theme-buttons {
-        margin: 0 0 10px 0;
+        margin: 0 auto;
     }
 
     .logo-title {
@@ -1294,7 +1501,8 @@ td:nth-child(3) {
 
     .modal {
         font-size: 12px;
-        width: 95%;
+        width: 90%;
+        position: absolute;
     }
 
     .title-info {
@@ -1358,6 +1566,20 @@ td:nth-child(3) {
 
     footer {
         font-size: 10px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .theme-container {
+        align-items: center; /* Выравниваем по центру на моб. */
+    }
+
+    .punishment-table-link {
+        font-size: 12px;
+        padding: 6px 10px;
     }
 }
 

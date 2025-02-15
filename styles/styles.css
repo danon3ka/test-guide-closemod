@@ -1502,7 +1502,7 @@ details summary::-webkit-details-marker {
     .modal {
         font-size: 12px;
         width: 90%;
-        position: absolute;
+        position: fixed;
     }
 
     .title-info {

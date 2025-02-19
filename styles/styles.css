@@ -24,7 +24,7 @@
     --footer-color: #68a1f5;
 
     --color-close-beseda: #f5ff6c; /* Беседа */
-    --bg-color-close-beseda: ;
+    --bg-color-close-beseda: #f5ff6c21;
     --color-close-pred: #f5a068; /* Клоз Пред */
     --bg-color-close-pred: rgba(238, 141, 76, 0.096);
     --color-close-vugovor: #ff3c3c; /* Выговор */
@@ -93,7 +93,7 @@ body.light {
     --footer-color: #a75000;
 
     --color-close-beseda: #f5ff6c; /* Беседа */
-    --bg-color-close-beseda: ;
+    --bg-color-close-beseda: #55591d4f;
     --color-close-pred: #ff6500e0; /* Клоз Пред */
     --bg-color-close-pred: rgb(255 178 125 / 36%);
     --color-close-vugovor: #ff0000;; /* Выговор */
@@ -161,7 +161,7 @@ body.dark {
     --footer-color: #68a1f5;
 
     --color-close-beseda: #f5ff6c; /* Беседа */
-    --bg-color-close-beseda: ;
+    --bg-color-close-beseda: #f5ff6c21;
     --color-close-pred: #f5a068; /* Клоз Пред */
     --bg-color-close-pred: rgba(238, 141, 76, 0.096);
     --color-close-vugovor: #ff3c3c; /* Выговор */
@@ -1090,6 +1090,10 @@ th {
 
 .color-beseda {
     color: var(--color-close-beseda);
+    background-color: var(--bg-color-close-beseda);
+    font-size: 15px;
+    padding: 1px 3px;
+    border-radius: 5px
 }
 
 .color-pred {
@@ -1433,7 +1437,7 @@ details summary::-webkit-details-marker {
 
     .theme-buttons {
         justify-content: center;
-        gap: 5px;
+        gap: 10px;
     }
 
     .rules-container {
@@ -1611,7 +1615,7 @@ details summary::-webkit-details-marker {
     }
 
     .theme-buttons {
-        margin: 0 0 10px 0;
+        margin: 0;
         flex: 1;
         display: flex;
         justify-content: flex-end;
